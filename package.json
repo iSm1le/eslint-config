@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint shareable config",
+  "author": {
+    "name": "iSm1le",
+    "email": "sm1leua@ya.ru"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint . silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iSm1le/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iSm1le/eslint-config/issues"
+  },
+  "keywords": [
+    "eslintconfig",
+    "lint",
+    "linter",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate"
+  ],
+  "homepage": "https://github.com/iSm1le/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "aqua"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
