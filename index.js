@@ -91,7 +91,6 @@ module.exports = {
 		'func-names': 'error',
 		'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
 		'id-length': ['error', { exceptions: ['i', 'j', 't', 'a', 'b', 'c', 'x'] }],
-		indent: ['error', 'tab', { SwitchCase: 1 }],
 		'key-spacing': 'error',
 		'keyword-spacing': ['error', {
 			overrides: {
