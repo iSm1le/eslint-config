@@ -10,4 +10,4 @@ before_install:
 install:
   - npm install
   - npm link
-  - npm link eslint-config-aqua
+  - npm link eslint-config-isalpha

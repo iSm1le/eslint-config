@@ -1,4 +1,4 @@
-# eslint-config-aqua
+# eslint-config-isalpha
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html)
 
 ## Contributing

@@ -1,6 +1,6 @@
 {
-  "name": "is-eslint-config-aqua",
-  "version": "1.0.2",
+  "name": "eslint-config-isalpha",
+  "version": "1.0.3",
   "description": "ESLint shareable config",
   "author": {
     "name": "iSm1le",
@@ -34,7 +34,7 @@
     "eslint": "^4.0.0"
   },
   "eslintConfig": {
-    "extends": "aqua"
+    "extends": "isalpha"
   },
   "engines": {
     "node": ">=6"
