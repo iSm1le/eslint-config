@@ -29,7 +29,6 @@ module.exports = {
 				error: 'Error'
 			}
 		}],
-
 		'accessor-pairs': 'warn',
 		'array-callback-return': 'error',
 		complexity: 'warn',
@@ -65,7 +64,7 @@ module.exports = {
 		'require-await': 'warn',
 		'wrap-iife': 'error',
 		yoda: 'error',
-
+		indent: ['error', 4],
 		'no-label-var': 'error',
 		'no-shadow': 'error',
 		'no-undef-init': 'error',
