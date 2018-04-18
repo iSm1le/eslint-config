@@ -5,7 +5,7 @@
 <div align="center">
   <p>
     <a href="https://www.npmjs.com/package/eslint-config-alpha"><img src="https://img.shields.io/npm/v/eslint-config-alpha.svg?maxAge=3600" alt="NPM version" /></a>
-		<a href="https://www.npmjs.com/package/eslint-config-alpha"><img src="https://img.shields.io/npm/dt/eslint-config-alpha.svg?maxAge=3600" alt="NPM downloads" /></a>
+		<a href="https://travis-ci.org/iSm1le/eslint-config-alpha"><img src="https://api.travis-ci.org/iSm1le/eslint-config-alpha.svg?branch=master&maxAge=3600" alt="Travis Ci build status" /></a>
 		<a href="https://david-dm.org/iSm1le/eslint-config-alpha"><img src="https://david-dm.org/iSm1le/eslint-config-alpha/status.svg?maxAge=3600" alt="Dependencies" /></a>
 	</p>
 	<p>
