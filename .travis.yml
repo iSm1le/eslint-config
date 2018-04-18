@@ -1,13 +1,18 @@
+dist: trusty
+sudo: required
+addons:
+  apt:
+    sources:
+      - git-core
+    packages:
+      - git
 language: node_js
 node_js:
-  - "7"
-dist: trusty
+  - '6'
+  - '7'
+  - '8'
+  - '9'
 cache:
-  directories:
-    - node_modules
-before_install:
-  - npm explore npm -g -- npm install node-gyp@latest
-install:
-  - npm install
-  - npm link
-  - npm link eslint-config-isalpha
+  yarn: true
+script:
+- yarn lint

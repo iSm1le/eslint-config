@@ -1,5 +1,67 @@
-# eslint-config-isalpha
+# eslint-config-alpha
+
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html)
+
+<div align="center">
+  <p>
+    <a href="https://www.npmjs.com/package/eslint-config-alpha"><img src="https://img.shields.io/npm/v/eslint-config-alpha.svg?maxAge=3600" alt="NPM version" /></a>
+		<a href="https://www.npmjs.com/package/eslint-config-alpha"><img src="https://img.shields.io/npm/dt/eslint-config-alpha.svg?maxAge=3600" alt="NPM downloads" /></a>
+		<a href="https://david-dm.org/iSm1le/eslint-config-alpha"><img src="https://david-dm.org/iSm1le/eslint-config-alpha/status.svg?maxAge=3600" alt="Dependencies" /></a>
+	</p>
+	<p>
+    <a href="https://nodei.co/npm/eslint-config-alpha/"><img src="https://nodei.co/npm/eslint-config-alpha.png?downloads=true&stars=true" alt="NPM info" /></a>
+	</p>
+</div>
+
+## Install
+
+```bash
+yarn add -D eslint-config-alpha@next
+```
+
+## Usage
+
+Add the ESLint config to your `package.json`:
+
+```json
+{
+	"name": "my-project",
+	...
+	"eslintConfig": {
+		"extends": "alpha"
+	}
+}
+```
+
+Or to `eslintrc.js` or `eslintrc.json`:
+
+```json
+{
+	"extends": "alpha"
+}
+```
+
+# Node development
+
+If you are developing with node.js consider adding:
+
+```json
+{
+	"extends": "alpha",
+	"env": {
+		"es6": true,
+		"node": true
+	}
+}
+```
+
+or use the somewhat stricter setup (my own) with:
+
+```json
+{
+	"extends": "alpha/node"
+}
+```
 
 ## Contributing
 

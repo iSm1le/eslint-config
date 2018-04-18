@@ -1,21 +1,23 @@
 {
-  "name": "eslint-config-isalpha",
-  "version": "1.0.4",
+  "name": "eslint-config-alpha",
+  "version": "2.0.0",
   "description": "ESLint shareable config",
+  "main": "src/index.js",
   "author": {
-    "name": "iSm1le",
-    "email": "sm1leua@ya.ru"
+    "name": "ism1le",
+    "email": "ism1le@xaff.ru"
   },
   "license": "MIT",
   "scripts": {
-    "test": "eslint . silent"
+    "git-pre-commit": "lint-staged",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iSm1le/eslint-config.git"
+    "url": "git+https://github.com/iSm1le/eslint-config-alpha.git"
   },
   "bugs": {
-    "url": "https://github.com/iSm1le/eslint-config/issues"
+    "url": "https://github.com/iSm1le/eslint-config-alpha/issues"
   },
   "keywords": [
     "eslintconfig",
@@ -26,15 +28,20 @@
     "eslint",
     "validate"
   ],
-  "homepage": "https://github.com/iSm1le/eslint-config#readme",
+  "homepage": "https://github.com/iSm1le/eslint-config-alpha#readme",
   "devDependencies": {
-    "eslint": "^4.0.0"
+    "@zeit/git-hooks": "^0.1.4",
+    "eslint": "^4.19.1",
+    "lint-staged": "7.0.4"
   },
   "peerDependencies": {
     "eslint": "^4.0.0"
   },
   "eslintConfig": {
-    "extends": "isalpha"
+    "extends": "./src/node.js"
+  },
+  "lint-staged": {
+    "src/*.js": ["eslint src", "git add"]
   },
   "engines": {
     "node": ">=6"
