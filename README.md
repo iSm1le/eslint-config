@@ -59,7 +59,7 @@ or use the somewhat stricter setup (my own) with:
 
 ```json
 {
-	"extends": "alpha/node"
+	"extends": "alpha/src/node"
 }
 ```
 
