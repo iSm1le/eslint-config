@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-alpha",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "ESLint shareable config",
   "main": "src/index.js",
   "author": {
@@ -32,6 +32,7 @@
   "devDependencies": {
     "@zeit/git-hooks": "^0.1.4",
     "eslint": "^4.19.1",
+    "eslint-plugin-promise": "^3.8.0",
     "lint-staged": "7.2.0"
   },
   "peerDependencies": {

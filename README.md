@@ -14,7 +14,7 @@
 ```bash
 yarn add -D eslint-config-alpha
 OR
-npm install --savedev eslint-config-alpha
+npm install --save-dev eslint-config-alpha
 ```
 
 ## Usage
@@ -73,7 +73,7 @@ Using the vue extended config will require you to additionally install `eslint-p
 ```bash
 yarn add -D babel-eslint eslint-plugin-vue
 OR
-npm install --savedev babel-eslint eslint-plugin-vue
+npm install --save-dev babel-eslint eslint-plugin-vue
 ```
 
 ## Contributing

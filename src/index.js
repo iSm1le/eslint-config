@@ -152,7 +152,7 @@ const base = {
   'jsx-quotes': ['error', 'prefer-double'],
   'key-spacing': ['error', { beforeColon: false, afterColon: true, mode: 'strict' }],
   'keyword-spacing': ['error', {
-    overrides: { 
+    overrides: {
       'if': { before: true, after: true },
       'for': { before: true, after: true },
       'while': { before: true, after: true },
@@ -257,11 +257,17 @@ const base = {
 };
 
 module.exports = {
-  parserOptions: {
+  'parserOptions': {
     ecmaVersion: 2018,
     ecmaFeatures: {
       experimentalObjectRestSpread: true
     }
   },
-  rules: Object.assign(base, {})
+  'rules': Object.assign(base, {}),
+  'plugins': [
+    'promise'
+  ],
+  'extends': [
+    'plugin:promise/recommended'
+  ]
 };
