@@ -13,7 +13,7 @@ module.exports = {
     browser: true
   },
   'rules': {
-    'vue/html-ident': ['error', 2],
+    'vue/html-indent': ['error', 2],
     'vue/attributes-hyphenation': 0
   }
 };
