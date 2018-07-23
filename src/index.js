@@ -151,7 +151,15 @@ const base = {
   'indent': ['error', 2],
   'jsx-quotes': ['error', 'prefer-double'],
   'key-spacing': ['error', { beforeColon: false, afterColon: true, mode: 'strict' }],
-  'keyword-spacing': ['error', { before: true, after: true }],
+  'keyword-spacing': ['error', {
+    overrides: { 
+      'if': { before: true, after: true },
+      'for': { before: true, after: true },
+      'while': { before: true, after: true },
+      'catch': { before: true, after: true },
+      'switch': { before: true, after: true }
+    }
+  }],
   'line-comment-position': 0,
   'linebreak-style': ['error', 'unix'],
   'lines-around-comment': 0,

@@ -1,22 +1,20 @@
-# eslint-config-alpha
+# Eslint Config
 
+>This config used in my projects to achieve same style along my JavaScript projects  
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html)
 
-<div align="center">
-  <p>
-    <a href="https://www.npmjs.com/package/eslint-config-alpha"><img src="https://img.shields.io/npm/v/eslint-config-alpha.svg?maxAge=3600" alt="NPM version" /></a>
-		<a href="https://travis-ci.org/iSm1le/eslint-config-alpha"><img src="https://api.travis-ci.org/iSm1le/eslint-config-alpha.svg?branch=master&maxAge=3600" alt="Travis Ci build status" /></a>
-		<a href="https://david-dm.org/iSm1le/eslint-config-alpha"><img src="https://david-dm.org/iSm1le/eslint-config-alpha/status.svg?maxAge=3600" alt="Dependencies" /></a>
-	</p>
-	<p>
-    <a href="https://nodei.co/npm/eslint-config-alpha/"><img src="https://nodei.co/npm/eslint-config-alpha.png?downloads=true&stars=true" alt="NPM info" /></a>
-	</p>
-</div>
+[![NPM version](https://img.shields.io/npm/v/eslint-config-alpha.svg?maxAge=3600)](https://www.npmjs.com/package/eslint-config-alpha)
+[![Travis Ci build status](https://api.travis-ci.org/iSm1le/eslint-config-alpha.svg?branch=master&maxAge=3600)](https://travis-ci.org/iSm1le/eslint-config-alpha)
+[![Dependencies](https://david-dm.org/iSm1le/eslint-config-alpha/status.svg?maxAge=3600)](https://david-dm.org/iSm1le/eslint-config-alpha)
+
+[![NPM info](https://nodei.co/npm/eslint-config-alpha.png?downloads=true&stars=true)](https://nodei.co/npm/eslint-config-alpha/)
 
 ## Install
 
 ```bash
-yarn add -D eslint-config-alpha@next
+yarn add -D eslint-config-alpha
+OR
+npm install --savedev eslint-config-alpha
 ```
 
 ## Usage
@@ -25,11 +23,11 @@ Add the ESLint config to your `package.json`:
 
 ```json
 {
-	"name": "my-project",
-	...
-	"eslintConfig": {
-		"extends": "alpha"
-	}
+  "name": "my-project",
+  ...
+  "eslintConfig": {
+    "extends": "alpha"
+  }
 }
 ```
 
@@ -37,30 +35,45 @@ Or to `eslintrc.js` or `eslintrc.json`:
 
 ```json
 {
-	"extends": "alpha"
+  "extends": "alpha"
 }
 ```
 
-# Node development
+## Targets
 
-If you are developing with node.js consider adding:
+If you are developing with JavaScript consider adding:
 
 ```json
 {
-	"extends": "alpha",
-	"env": {
-		"es6": true,
-		"node": true
-	}
+  "extends": "alpha",
+  "env": {
+    "browser": true
+  }
 }
 ```
 
-or use the somewhat stricter setup (my own) with:
+or use the platform specific configs for Node.js:
 
 ```json
 {
-	"extends": "alpha/src/node"
+  "extends": "alpha/src/node"
 }
+```
+
+or Vue.js:
+
+```json
+{
+  "extends": "alpha/src/vue"
+}
+```
+
+Using the vue extended config will require you to additionally install `eslint-plugin-vue` and `babel-eslint`
+
+```bash
+yarn add -D babel-eslint eslint-plugin-vue
+OR
+npm install --savedev babel-eslint eslint-plugin-vue
 ```
 
 ## Contributing
@@ -75,10 +88,8 @@ or use the somewhat stricter setup (my own) with:
 
 Original Author iCrawl.
 
-> GitHub [@iCrawl](https://github.com/iCrawl) · Twitter [@iCrawlToGo](https://twitter.com/iCrawlToGo)<br>
+> GitHub [@iCrawl](https://github.com/iCrawl) · Twitter [@iCrawlToGo](https://twitter.com/iCrawlToGo)
 
 Changed for personal use by iSm1le.
 
-> GitHub [@iSm1le](https://github.com/iSm1le) · Twitter [@sm1leua](https://twitter.com/sm1leua)<br>
-
-Authored and maintained by iSm1le.<br>
+> GitHub [@iSm1le](https://github.com/iSm1le) · Twitter [@sm1leua](https://twitter.com/sm1leua)
