@@ -14,13 +14,6 @@ module.exports = {
   },
   'rules': {
     'vue/html-ident': ['error', 2],
-    'vue/max-attributes-per-line': [2, {
-      singleline: 1,
-      multiline: {
-        max: 1,
-        allowFirstline: true
-      }
-    }],
     'vue/attributes-hyphenation': 0
   }
 };
