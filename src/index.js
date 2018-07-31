@@ -170,7 +170,7 @@ const base = {
   'max-nested-callbacks': 0,
   'max-params': 0,
   'max-statements': 0,
-  'max-statements-per-line': ['error', { max: 1 }],
+  'max-statements-per-line': ['error', { max: 2 }],
   'multiline-comment-style': 0,
   'multiline-ternary': ['error', 'always-multiline'],
   'new-cap': 'warn',
