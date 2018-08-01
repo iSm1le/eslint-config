@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-alpha",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "ESLint shareable config",
   "main": "src/index.js",
   "author": {
@@ -34,7 +34,6 @@
   "peerDependencies": {
     "babel-eslint": "^8.2.6",
     "eslint": "^4.19.1",
-    "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-vue": "^4.7.0"
   },
   "eslintConfig": {
@@ -42,5 +41,8 @@
   },
   "engines": {
     "node": ">=6"
+  },
+  "dependencies": {
+    "eslint-plugin-promise": "^3.8.0"
   }
 }
