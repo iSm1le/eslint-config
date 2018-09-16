@@ -258,7 +258,7 @@ const base = {
 
 module.exports = {
   'parserOptions': {
-    ecmaVersion: 2018
+    ecmaVersion: 2019
   },
   'rules': Object.assign(base, {}),
   'plugins': [
